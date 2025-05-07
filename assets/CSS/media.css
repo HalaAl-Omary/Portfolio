@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+  .header .img-circle {
+    width: 250px;
+    height: 250px;
+  }
+
+  .header .header-contant h1 {
+    font-size: 40px;
+  }
+
+  .header .header-contant p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .header .header-contant {
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .project-card .card {
+    margin-bottom: 40px;
+  }
+
+  .card-body p,
+  .card-body h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .contact-section h2 {
+    font-size: 28px;
+  }
+
+  .contact-section label {
+    font-size: 16px;
+  }
+
+  .contact-section input,
+  .contact-section textarea {
+    font-size: 14px;
+  }
+
+  .contact-section button {
+    font-size: 16px;
+    width: 100%; /* Full width button on small screens */
+  }
+}
