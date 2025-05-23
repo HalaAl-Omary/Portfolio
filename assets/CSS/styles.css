@@ -438,3 +438,32 @@ body {
   animation: fadeInUp 1.5s ease-out forwards;
   animation-delay: 0.3s;
 }
+
+
+.hala-svg {
+  height: 40px;
+}
+
+.hala-svg text {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: draw 3s ease-in-out forwards;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 500;
+    fill: none;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    fill: none;
+  }
+  100% {
+    fill: #000000;
+  }
+}
+
